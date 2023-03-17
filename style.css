@@ -1,0 +1,121 @@
+.body-container {
+    background-color: rgb(199, 233, 255);
+    font-family: 'Lucida Sans';
+}
+
+.logo {
+    border-style: ridge;
+    width: 50%;
+    background-color: white;
+    font-size: 28px;
+    font-family: verdana;
+    border-radius: 20px     ;
+    color:lightGreen;
+}
+
+.quote-container {
+    word-spacing: 5px;
+    letter-spacing: 5px;
+    border-style: outset;
+    line-height: 1;
+    font-size: 20px;
+    font-family: palatino;
+    color:blue;
+    background-color: aliceblue;
+    width: 95%;
+    border-radius: 80px;
+}
+
+
+table td {
+    background-color: red;
+    color: firebrick;
+    border-radius:20px
+}
+td:hover{
+    background-color: lightgreen;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    transition: background-color .5s;
+    margin: auto;
+    padding: auto;
+}
+
+a:hover {
+    
+    color: orange;
+    animation-direction: alternate-reverse;
+}
+
+.head {
+    border-style: double;
+    line-height: 1;
+    background-color: cyan;
+     margin-left: 0%;
+    margin-right: 0%;
+    padding: 20px;
+}
+
+.p-head {
+    color:brown;
+    font-size: 30px;
+    font-family: 'Times New Roman';
+    letter-spacing: 2px;
+    word-spacing: 2px;
+}
+
+.products {
+    margin-left: 2%;
+    margin-right: 2%;
+    border-style: groove;
+    border-color: indigo;
+    line-height: 1;
+    font-size: 18px;
+    font-family: 'Times New Roman';
+    color: black;
+    background-color:lightgreen;
+    border-radius: 10px;
+}
+
+.product-head {
+    margin-left: 20%;
+    font-size: 28px;
+    line-height: 0.40;
+}
+
+.product-detail {
+    margin-left: 20%;
+    font-size: 15px;
+    line-height: 1.50;
+    color: gray;
+}
+
+.cost {
+    font-size: 30px;
+    color: orangered;
+}
+
+.rate {
+    font-size: 33px;
+    color: gold;
+}
+
+.br {
+    display: block;
+    margin-bottom: 2px;
+}
+
+.final {
+    line-height: 1;
+    background-color: rgb(0, 136, 255);
+    width: 100%;
+}
+span{
+    margin: auto;
+    color: white;
+    text-align: center;
+}
